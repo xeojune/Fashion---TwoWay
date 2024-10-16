@@ -1,0 +1,98 @@
+
+/************ Itemlist Style ***************/
+
+/* General Wrapper */
+.itemlist-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center;     /* Centers content vertically */
+  width: 100%;   
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+  }
+  
+  /* Category List */
+  .category-wrapper {
+    margin-bottom: 20px;
+  }
+  
+  .category-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .category-list li {
+    padding: 10px 20px;
+    background-color: #ddd;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  /* Filters */
+  .search-filter {
+    margin-bottom: 20px;
+  }
+  
+  .filter-status {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .filter-delete {
+    color: red;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  /* Product List */
+  .item-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .item-container .item-card {
+    width: 24%;
+    margin: 0.5%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .item-container .item-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Go to Top Button */
+  .goToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+
+
+  

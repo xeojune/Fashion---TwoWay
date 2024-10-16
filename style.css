@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Arial';
+}
+
+/************ Home Page ***************/
+.home-wrapper {
+    width: 100%;
+}

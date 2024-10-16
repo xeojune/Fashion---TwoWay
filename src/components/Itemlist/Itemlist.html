@@ -1,0 +1,46 @@
+<div class="itemlist-wrapper">
+  <!-- Search Bar -->
+  <div id="search-bar">
+    <!-- Categories will be loaded dynamically here -->
+  </div>
+
+  <!-- Category List -->
+  <div class="category-wrapper">
+    <ul class="category-list" id="category-list">
+      <!-- Categories will be loaded dynamically here -->
+    </ul>
+  </div>
+
+  <!-- Content -->
+  <div class="content">
+    <div class="search-filter">
+      <div class="filter">
+        Filter
+        <div id="filter-status" class="filter-status"></div>
+        <div id="filter-delete" class="filter-delete" style="display: none;">Clear All</div>
+      </div>
+      <!-- Filters: Categories, Price, Shoes, Clothes -->
+      <div id="filters"></div>
+    </div>
+
+    <!-- Item Container -->
+    <div class="item-container">
+      <div class="search-options">
+        <div class="filter-categories" id="filter-categories"></div>
+        <select id="sort-filter">
+          <option value="sales">Sales</option>
+          <option value="price">Price</option>
+        </select>
+      </div>
+
+      <!-- Products will be loaded dynamically -->
+      <div id="product-list"></div>
+
+      <!-- Load more button -->
+      <button id="loadMoreBtn">Load More</button>
+    </div>
+  </div>
+
+  <!-- Scroll to top button -->
+  <button id="goToTopBtn" class="goToTopBtn" style="display: none;">&uArr;</button>
+</div>
